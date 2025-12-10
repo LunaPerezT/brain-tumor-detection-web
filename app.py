@@ -14,7 +14,7 @@ import numpy as np
 import random
 
 # ---------- PATH CONSTANTS ----------
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve()
 DATA_DIR = BASE_DIR / "data"
 IMAGES_DIR = BASE_DIR / "img"
 VIDEO_PATH = BASE_DIR / "video" /"flask_demo.mp4"
@@ -1084,4 +1084,5 @@ st.markdown(
     "<p style='text-align: center; color: gray; font-size: 1em;'>© 2025 Brain MRI Tumor Detection </p>",
     unsafe_allow_html=True,
 )
+
 
